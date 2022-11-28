@@ -231,7 +231,6 @@ def predict(args):
         metrics_dict[k_min]['precision'], metrics_dict[k_max]['precision'], metrics_dict[k_min]['recall'], metrics_dict[k_max]['recall'], metrics_dict[k_min]['ndcg'], metrics_dict[k_max]['ndcg']))
 
 
-
 if __name__ == '__main__':
     args = parse_kgat_args()
     train(args)
