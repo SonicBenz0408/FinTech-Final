@@ -217,7 +217,7 @@ def predict(args):
 
     # load model
     model = KGAT(args, data.n_users, data.n_entities, data.n_relations)
-    model = load_model(model, args.pretrain_model_path)
+    #model = load_model(model, args.pretrain_model_path)
     model.to(device)
 
     # predict

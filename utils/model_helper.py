@@ -28,4 +28,4 @@ def load_model(model, model_path):
     checkpoint = torch.load(model_path, map_location=torch.device('cpu'))
     model.load_state_dict(checkpoint['model_state_dict'])
     model.eval()
-    return 
+    return
