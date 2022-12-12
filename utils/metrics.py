@@ -145,6 +145,7 @@ def calc_metrics_at_k(cf_scores, train_user_dict, test_user_dict, user_ids, item
         metrics_dict[k]['ndcg']      = ndcg_at_k_batch(binary_hit, k)
     return metrics_dict
 
+
 def exp_calc_metrics_at_k(rank_indices, train_user_dict, test_user_dict, user_ids, item_ids, Ks):
     test_pos_item_binary = np.zeros([len(user_ids), len(item_ids)], dtype=np.float32)
     for idx, u in enumerate(user_ids):
