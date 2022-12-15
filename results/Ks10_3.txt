@@ -1,0 +1,36 @@
+Evaluating Iteration: 100%|██████████| 1/1 [00:00<00:00,  2.62it/s]
+Original
+CF Evaluation: Precision [0.1180, 0.1180], Recall [0.5781, 0.5781], NDCG [0.3873, 0.3873]
+Evaluating Iteration: 100%|██████████| 100/100 [29:04<00:00, 17.45s/it]
+Explainable sum
+CF Evaluation: Precision [0.1180, 0.1180], Recall [1.0000, 1.0000], NDCG [0.4620, 0.4620]
+Evaluating Iteration: 100%|██████████| 100/100 [29:09<00:00, 17.49s/it]
+Explainable mul
+CF Evaluation: Precision [0.1180, 0.1180], Recall [1.0000, 1.0000], NDCG [0.5003, 0.5003]
+Evaluating Iteration: 100%|██████████| 100/100 [29:01<00:00, 17.42s/it]
+Explainable max
+CF Evaluation: Precision [0.1180, 0.1180], Recall [1.0000, 1.0000], NDCG [0.4941, 0.4941]
+Evaluating Iteration: 100%|██████████| 1/1 [00:00<00:00,  4.93it/s]
+Original
+CF Evaluation: Precision [0.1150, 0.1150], Recall [0.5762, 0.5762], NDCG [0.3635, 0.3635]
+Evaluating Iteration: 100%|██████████| 100/100 [27:50<00:00, 16.71s/it]
+Explainable sum
+CF Evaluation: Precision [0.1150, 0.1150], Recall [1.0000, 1.0000], NDCG [0.4980, 0.4980]
+Evaluating Iteration: 100%|██████████| 100/100 [27:53<00:00, 16.74s/it]
+Explainable mul
+CF Evaluation: Precision [0.1150, 0.1150], Recall [1.0000, 1.0000], NDCG [0.5152, 0.5152]
+Evaluating Iteration: 100%|██████████| 100/100 [27:49<00:00, 16.69s/it]
+Explainable max
+CF Evaluation: Precision [0.1150, 0.1150], Recall [1.0000, 1.0000], NDCG [0.4951, 0.4951]
+Evaluating Iteration: 100%|██████████| 1/1 [00:00<00:00,  6.90it/s]
+Original
+CF Evaluation: Precision [0.1090, 0.1090], Recall [0.5646, 0.5646], NDCG [0.3668, 0.3668]
+Evaluating Iteration: 100%|██████████| 100/100 [28:15<00:00, 16.96s/it]
+Explainable sum
+CF Evaluation: Precision [0.1090, 0.1090], Recall [1.0000, 1.0000], NDCG [0.5098, 0.5098]
+Evaluating Iteration: 100%|██████████| 100/100 [28:18<00:00, 16.98s/it]
+Explainable mul
+CF Evaluation: Precision [0.1090, 0.1090], Recall [1.0000, 1.0000], NDCG [0.5402, 0.5402]
+Evaluating Iteration: 100%|██████████| 100/100 [28:09<00:00, 16.90s/it]
+Explainable max
+CF Evaluation: Precision [0.1090, 0.1090], Recall [1.0000, 1.0000], NDCG [0.5083, 0.5083]

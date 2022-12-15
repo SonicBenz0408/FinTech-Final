@@ -136,7 +136,7 @@ def calc_metrics_at_k(cf_scores, train_user_dict, test_user_dict, user_ids, item
     for i in range(len(user_ids)):
         binary_hit.append(test_pos_item_binary[i][rank_indices[i]])
     binary_hit = np.array(binary_hit, dtype=np.float32)
-
+    print(binary_hit[:k])
     metrics_dict = {}
     for k in Ks:
         metrics_dict[k] = {}
@@ -158,6 +158,7 @@ def exp_calc_metrics_at_k(rank_indices, train_user_dict, test_user_dict, user_id
     for i in range(len(user_ids)):
         binary_hit.append(test_pos_item_binary[i][rank_indices[i]])
     binary_hit = np.array(binary_hit, dtype=np.float32)
+    print(binary_hit)
 
     metrics_dict = {}
     for k in Ks:
